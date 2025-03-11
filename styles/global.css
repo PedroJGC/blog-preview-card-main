@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0;
+}
+
+:root {
+  --main-color: #f4d04e;
+  --text-dark: #111111;
+  --text-light: #6b6b6b;
+
+  --font-family: 'Figtree', sans-serif;
+  --text-preset-one: 800 1.5rem/1.5 var(--font-family);
+  --text-preset-two: 500 1rem/1.5 var(--font-family);
+  --text-preset-trhee: 500 0.875rem/1.5 var(--font-family);
+  --text-preset-four: 800 0.875rem/1.5 var(--font-family);
+}
