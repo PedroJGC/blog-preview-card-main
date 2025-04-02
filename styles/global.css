@@ -16,3 +16,7 @@
   --text-preset-trhee: 500 0.875rem/1.5 var(--font-family);
   --text-preset-four: 800 0.875rem/1.5 var(--font-family);
 }
+
+body {
+  background-color: var(--main-color);
+}
