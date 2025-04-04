@@ -1,8 +1,15 @@
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   letter-spacing: 0;
+  font: inherit;
 }
 
 :root {
@@ -12,8 +19,11 @@
 
   --font-family: 'Figtree', sans-serif;
   --text-preset-one: 800 1.5rem/1.5 var(--font-family);
+  --text-preset-one-mobile: 800 1.25rem/1.5 var(--font-family);
   --text-preset-two: 500 1rem/1.5 var(--font-family);
+  --text-preset-two-mobile: 500 0.87rem/1.5 var(--font-family);
   --text-preset-trhee: 500 0.875rem/1.5 var(--font-family);
+  --text-preset-trhee-bold: 800 0.875rem/1.5 var(--font-family);
   --text-preset-four: 800 0.875rem/1.5 var(--font-family);
 }
 
